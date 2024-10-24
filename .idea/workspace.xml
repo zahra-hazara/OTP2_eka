@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a60baf44-5c2e-4789-9eb2-bb76f3f49f1e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_fa_IR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Message_ja_JP.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LocalizedGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LocalizedGreeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Message_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Message_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Message_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Message_es.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Message_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Message_fr.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LocalizedGreetingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LocalizedGreetingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,40 +42,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LocalizedGreeting.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LocalizedGreetingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OTP2_eka [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OTP2_eka [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OTP2_eka [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OTP2_eka [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.OTP2_eka [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/zahra/IdeaProjects/OTP2_eka/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LocalTest.executor": "Run",
+    "Application.LocalizedGreeting.executor": "Run",
+    "Docker.Dockerfile.executor": "Run",
+    "JUnit.LocalizedGreetingTest.executor": "Run",
+    "JUnit.LocalizedGreetingTest.testFarsiLocale.executor": "Run",
+    "JUnit.LocalizedGreetingTest.testJapaniesLocale.executor": "Run",
+    "JUnit.LocalizedGreetingTest.testSpanishGreeting.executor": "Run",
+    "Maven.OTP2_eka [clean].executor": "Run",
+    "Maven.OTP2_eka [deploy].executor": "Run",
+    "Maven.OTP2_eka [install].executor": "Run",
+    "Maven.OTP2_eka [package].executor": "Run",
+    "Maven.OTP2_eka [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/zahra/IdeaProjects/OTP2_eka/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn install" />
       <command value="mvn test" />
       <command value="mvn package" />
-      <command value="mvn clean" />
       <command value="mvn deploy" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="JUnit.LocalizedGreetingTest.testFarsiLocale">
     <configuration name="LocalizedGreeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LocalizedGreeting" />
       <module name="OTP2_eka" />
@@ -92,19 +97,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
+    <configuration name="LocalizedGreetingTest.testFarsiLocale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTP2_eka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocalizedGreetingTest" />
+      <option name="METHOD_NAME" value="testFarsiLocale" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalizedGreetingTest.testJapaniesLocale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTP2_eka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocalizedGreetingTest" />
+      <option name="METHOD_NAME" value="testJapaniesLocale" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalizedGreetingTest.testSpanishGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTP2_eka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LocalizedGreetingTest" />
+      <option name="METHOD_NAME" value="testSpanishGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Application.LocalizedGreeting" />
+        <item itemvalue="JUnit.LocalizedGreetingTest.testFarsiLocale" />
         <item itemvalue="JUnit.LocalizedGreetingTest" />
+        <item itemvalue="JUnit.LocalizedGreetingTest.testJapaniesLocale" />
+        <item itemvalue="JUnit.LocalizedGreetingTest.testSpanishGreeting" />
+        <item itemvalue="Application.LocalizedGreeting" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +154,9 @@
       <option name="presentableId" value="Default" />
       <updated>1729496574060</updated>
       <workItem from="1729496575178" duration="7526000" />
-      <workItem from="1729587667025" duration="408000" />
+      <workItem from="1729587667025" duration="1181000" />
+      <workItem from="1729667314500" duration="9000" />
+      <workItem from="1729750868560" duration="4921000" />
     </task>
     <task id="LOCAL-00001" summary="Jenkins added">
       <option name="closed" value="true" />
@@ -151,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729500510462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1729588134887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729588134887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,5 +211,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
